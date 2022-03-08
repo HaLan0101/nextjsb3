@@ -30,6 +30,11 @@ const Header = () => {
               <a className="nav__link">Cart</a>
             </Link>
           </li>
+          <li className="nav__item">
+            <Link href="/register">
+              <a className="nav__link">Register</a>
+            </Link>
+          </li>
           <li>
             <Button type="button" classes="btn btn__color-white" function={() => console.log("islogged")} title="login" />
           </li>
