@@ -20,7 +20,7 @@ const Index = () => {
             setShowModal(true);
           }
           else{
-            localStorage.setItem('jwt',data.jwt);
+            localStorage.setItem('token',data.jwt);
             router.push("/profil");
           }})
         .catch((err) => {

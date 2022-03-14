@@ -4,9 +4,9 @@ import Button from "../../components/Button";
 const Index = () => {
   const [cart, setCart] = useState();
 
-    const deleteCart = () => {
-        localStorage.removeItem('cart');
-        setCart(null);
+  const deleteCart = () => {
+      localStorage.removeItem('cart');
+      setCart(null);
   };
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import React from 'react';
 const ProductPrice = (props) => {
     return (
         <div className="product__price">
-            {props.attributes.Price} {props.currency}
+            {props.price} {props.currency}
         </div>
     );
 }

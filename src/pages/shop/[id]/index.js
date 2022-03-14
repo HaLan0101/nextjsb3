@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import TitlePage from "../../../components/TitlePage";
+import TitlePage from "../../../components/TitlePage/TitlePage";
 import ProductPrice from "../../../components/ProductPrice";
 import Button from "../../../components/Button";
 import productService from "../../../services/product.service";
